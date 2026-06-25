@@ -1075,7 +1075,7 @@ hr.sb-sep { border: none; border-top: 1px solid var(--border); margin: 10px 18px
           Hesabın yok mu?
           <a href="#" onclick="switchTab('tabReg',document.querySelectorAll('.mtab')[1])" style="color:var(--red);text-decoration:none;">Üye Ol</a>
         </p>
-        <div class="demo-note">Demo → admin / admin123 &nbsp;|&nbsp; user / user123</div>
+        <div class="demo-note">Demo → baskan / baskan1212 &nbsp;|&nbsp; user / user123</div>
       </div>
 
       <!-- REGISTER -->
@@ -1327,7 +1327,7 @@ function saveDB(db) { localStorage.setItem(DB_KEY, JSON.stringify(db)); }
 function seedDB() {
   const db = {
     users: [
-      { id:1, name:'Yönetici',      username:'admin', email:'admin@cw.com', password:'admin123', role:'admin', created: new Date().toISOString(), av:'Y' },
+      { id:1, name:'Yönetici',      username:'baskan', email:'admin@cw.com', password:'baskan1212', role:'admin', created: new Date().toISOString(), av:'Y' },
       { id:2, name:'Ahmet Yılmaz',  username:'user',  email:'ahmet@cw.com', password:'user123',  role:'user',  created: new Date().toISOString(), av:'A' },
       { id:3, name:'Zeynep Çelik',  username:'zeynep',email:'zeynep@cw.com',password:'zeynep123',role:'user',  created: new Date().toISOString(), av:'Z' },
     ],
